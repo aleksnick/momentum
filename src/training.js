@@ -1,3 +1,14 @@
- const sum = (a,b) => a + b;
+export const sum = (a, b) => a + b;
 
- export default sum;
+
+const arr = [1, 2, 3];
+// export const newArr = [...arr, 4, 5, 6];
+
+
+
+
+
+
+
+
+

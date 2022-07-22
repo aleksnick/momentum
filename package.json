@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/OlegLuppov/momentum#readme",
   "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/preset-stage-3": "^7.8.3",
+    "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
     "path": "^0.12.7",

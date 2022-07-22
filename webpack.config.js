@@ -12,7 +12,14 @@ let config = {
         static: './dist',
 
     },
-
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                loader: 'babel-loader',
+            }
+        ]
+    }
 
 
 

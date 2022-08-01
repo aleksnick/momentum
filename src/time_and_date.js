@@ -4,6 +4,10 @@ import  showGreeting  from "./greeting"
 const time = document.querySelector('.time')
 const date = document.querySelector('.date')
 
+// const x = () => console.log('Kate')
+//  time.addEventListener('DOMNodeInserted',x)
+
+
 const options = {
     weekday: 'long',
     month: 'long',

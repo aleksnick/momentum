@@ -1,5 +1,5 @@
-const greeting = document.querySelector('.greeting')
-const timesOfDay = ['morning', 'day', 'evening', 'night']
+export const greeting = document.querySelector('.greeting')
+export const timesOfDay = ['morning', 'day', 'evening', 'night']
 
 const showGreeting = () => {
     const date = new Date()
@@ -24,7 +24,6 @@ const showGreeting = () => {
             greeting.textContent = `Good ${timesOfDay[Math.floor(hours) - 1]}`
 
             break
-
 
     }
 

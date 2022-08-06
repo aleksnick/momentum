@@ -5,6 +5,6 @@ import './time_and_date';
 import './enter_name';
 import './background';
 import './slider'
-
+import './Weather'
 
 

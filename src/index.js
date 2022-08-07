@@ -6,5 +6,5 @@ import './enter_name';
 import './background';
 import './slider'
 import './Weather'
-
+import './quotOfTheDay'
 

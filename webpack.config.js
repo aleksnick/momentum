@@ -49,13 +49,6 @@ const config = {
         hints:false
     }
 
-
-
-
-
-
-
-
 };
 
 module.exports = config;

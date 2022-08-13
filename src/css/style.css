@@ -72,6 +72,7 @@ body {
 }
 
 .item-active::before {
+
   color: #C5B358;
 }
 

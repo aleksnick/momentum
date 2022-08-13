@@ -3,12 +3,16 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 const config = {
+
+
+
     entry: {
         app: './src/index.js'
     },
     output: {
         path: path.resolve(__dirname, './dist'),
         filename: 'bundle.js',
+      
     },
     devServer: {
         static: './dist',
@@ -21,10 +25,18 @@ const config = {
                 include: /node_modules/,
                 loader: 'babel-loader',
             },
+
             {
                 test: /\.css$/,
                 use: [MiniCssExtractPlugin.loader, 'css-loader']
+            },
+
+            {
+                test:/\.mp3$/i,
+                use: ['file-loader'],
+             
             }
+
         ]
     },
     plugins: [
@@ -36,13 +48,6 @@ const config = {
     performance: {
         hints:false
     }
-
-
-
-
-
-
-
 
 };
 

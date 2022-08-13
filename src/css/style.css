@@ -16,7 +16,10 @@ body {
   font-size: 16px;
   color: #fff;
   text-align: center;
-  background: url("../assets/img/bg.jpg") center/cover, rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0,0, 0.5);
   background-blend-mode: multiply;
   transition: background-image 1s ease-in-out;
 }
@@ -40,7 +43,10 @@ body {
 }
 
 .play-list {
+  display: flex;
+  flex-direction: column;
   text-align: left;
+  list-style-type: none;
 }
 
 .play-item {
@@ -66,6 +72,7 @@ body {
 }
 
 .item-active::before {
+
   color: #C5B358;
 }
 

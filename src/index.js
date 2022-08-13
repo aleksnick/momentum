@@ -1,11 +1,14 @@
-
+// connect style
 import './css/style.css'
 import './css/owfont-regular.css'
-import {sum,newArr} from './training.js' 
+import './time_and_date';
+import './enter_name';
+import './background';
+import './slider'
+import './Weather'
+import './quotOfTheDay'
+import './player'
+import img from './assets/sounds/Ennio Morricone.mp3'
+console.log(img)
 
-console.log(sum(5,5));
-console.log(newArr);
-
-const max = (a,b) => Math.max(a,b);
-console.log(max(2,6));
 

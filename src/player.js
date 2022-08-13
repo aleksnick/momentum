@@ -18,7 +18,6 @@ let idx = 0
 const playSong = async (e) => {
 
     audio.src = arrSongs[idx]
-    console.log(idx)
 
     if (e.target.closest('.play')) {
 

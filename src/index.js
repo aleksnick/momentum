@@ -8,7 +8,6 @@ import './slider'
 import './Weather'
 import './quotOfTheDay'
 import './player'
-import img from './assets/sounds/Ennio Morricone.mp3'
-console.log(img)
+
 
 
